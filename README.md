@@ -12,6 +12,8 @@ Uma pessoa extramente curiosa pela área de tecologia desde pequeno, atualmente 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theusbarross&repo=Project-Tik-Tok-Clone&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-### Meu Linkedin:
+### Meu contato:
 
-[<img src='https://logospng.org/download/linkedin/logo-linkedin-256.png' alt='Linkedin' height='80'>](https://www.linkedin.com/in/matheus-barros-9497a8242/)
+[<img src='https://logospng.org/download/linkedin/logo-linkedin-256.png' alt='Linkedin' height='80'>](https://www.linkedin.com/in/matheus-barros-9497a8242/) 
+
+[<img src='https://cdn.icon-icons.com/icons2/2530/PNG/512/gmail_button_icon_151848.png' alt='Gmail' height='30'>](matheus.fonsecadeoliveirabarro@gmail.com)
