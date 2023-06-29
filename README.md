@@ -2,7 +2,7 @@
 
 
 <h2 align='center'>Um pouco sobre mim:</h2>
-Uma pessoa extramente curiosa pela área de tecologia desde pequeno, atualmente faço Análise e desenvolvimento de sistemas na Wyden, escolhi essa área por amor a tecnologia e tudo que a envolve. Nasci em Castro Alves - Bahia, interior com mais ou menos 25 mil habitantes, uma cidade que não tem muitas oportunidades em relação a algumas áreas profissionais, comecei a trabalhar na fábrica de Calçados Pegada com o objetivo de fazer faculdade. Depois de 2 anos e meio de uma grande experiência, decidir me mudar para Salvador - Bahia, onde moro atualmente, com o objetivo de estudar, buscar conhecimento e uma oportunidade de estágio na área de T.I. Estou bastante motivado e determinado a sempre ir além na área, estou só no começo do meu objetivo/carreira, acredito que posso compensar a falta de experiência com dedicação e empenho.
+Uma pessoa extramente curiosa pela área de tecologia desde pequeno, atualmente faço Análise e desenvolvimento de sistemas na Wyden, escolhi essa área por amor a tecnologia e tudo que a envolve. Nasci em Castro Alves - Bahia, interior com mais ou menos 25 mil habitantes, uma cidade que não tem muitas oportunidades em relação a algumas áreas profissionais, comecei a trabalhar na fábrica de Calçados Pegada com o objetivo de fazer faculdade. Depois de 2 anos e meio de uma grande experiência, decidir me mudar para Salvador - Bahia, onde moro atualmente com o objetivo de estudar, buscar conhecimento e uma oportunidade de estágio na área de T.I. Estou bastante motivado e determinado a sempre ir além na área, estou só no começo do meu objetivo/carreira, acredito que posso compensar a falta de experiência com dedicação e empenho.
 
 <h2 align='center'>Detalhes:</h2>
 
