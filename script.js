@@ -101,6 +101,14 @@ document.addEventListener('DOMContentLoaded', function() {
             : '<i class="fas fa-bars"></i>';
 });
 
+    // Redimensionamento em tempo real
+    window.addEventListener('resize', function() {
+        if(window.innerWidth > 768) {
+            document.querySelector('.navbar').classList.remove('active');
+            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    }
+});
+
     // Fechar menu ao clicar em um link (para mobile)
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -143,3 +151,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 });
+
