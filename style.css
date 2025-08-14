@@ -454,79 +454,73 @@ section {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-/* Media Queries para responsividade */
+/* ========== RESPONSIVIDADE ========== */
 @media (max-width: 1200px) {
     html {
         font-size: 90%;
     }
     
-    .timeline::after {
-        left: 3rem;
-    }
-    
-    .timeline-item {
-        width: 100%;
-        padding-left: 7rem;
-        padding-right: 2rem;
-    }
-    
-    .timeline-item:nth-child(even) {
-        left: 0;
-    }
-    
-    .timeline-item:nth-child(odd) .timeline-date,
-    .timeline-item:nth-child(even) .timeline-date {
-        left: 2rem;
-        right: auto;
-    }
-    
-    .timeline-item:nth-child(odd)::after,
-    .timeline-item:nth-child(even)::after {
-        left: 1.2rem;
+    .home-content h1 {
+        font-size: 3.5rem;
     }
 }
 
+@media (max-width: 991px) {
+    section {
+        padding: 6rem 5% 4rem;
+    }
+    
+    .home-content h3 {
+        font-size: 2rem;
+    }
+}
+
+/* Tablet */
 @media (max-width: 768px) {
     html {
         font-size: 85%;
     }
     
+    .header {
+        padding: 1.5rem 5%;
+    }
+    
     .home {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
-        padding: 8rem 5% 6rem;
+        gap: 3rem;
     }
     
     .home-content h1 {
         font-size: 3rem;
     }
     
-    .home-content h3 {
-        font-size: 2rem;
-    }
-    
     .home-img img {
-        width: 60vw;
-        margin-top: 4rem;
+        width: 50vw;
     }
     
     .about-container {
         flex-direction: column-reverse;
-        text-align: center;
     }
     
     .about-img img {
-        width: 60vw;
-    }
-    
-    .input-box input {
-        width: 100%;
+        width: 50vw;
+        margin-top: 3rem;
     }
 }
 
-@media (max-width: 480px) {
+/* Celular */
+@media (max-width: 576px) {
     html {
         font-size: 80%;
+    }
+    
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-content h3 {
+        font-size: 1.8rem;
     }
     
     .navbar {
@@ -536,6 +530,7 @@ section {
         width: 100%;
         background: var(--bg-color);
         box-shadow: 0 .5rem 1rem var(--shadow-color);
+        padding: 1rem 5%;
         display: none;
     }
     
@@ -549,14 +544,28 @@ section {
         text-align: center;
     }
     
-    .theme-toggle {
-        position: absolute;
-        right: 7%;
-        top: 1.5rem;
+    .home-img img,
+    .about-img img {
+        width: 70vw;
+    }
+    
+    .input-box input {
+        width: 100%;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 400px) {
+    html {
+        font-size: 75%;
+    }
+    
+    .home-content h1 {
+        font-size: 2rem;
     }
     
     .footer {
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 }
