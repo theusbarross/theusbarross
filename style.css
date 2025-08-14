@@ -569,3 +569,48 @@ section {
         gap: 1.5rem;
     }
 }
+/* Melhorias para mobile */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    .timeline::after {
+        left: 2rem;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 5rem;
+        padding-right: 1rem;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    
+    .timeline-date {
+        left: 1rem;
+        right: auto;
+    }
+    
+    .timeline-item::after {
+        left: 1rem;
+    }
+}
+
+/* Correção para viewport em iOS */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
