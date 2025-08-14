@@ -149,6 +149,26 @@ document.addEventListener('DOMContentLoaded', function() {
     // Opcional: Mostra mensagem de confirmação
     alert('Você será redirecionado para o WhatsApp para completar o envio!');
 });
+    // Função para ajustar a timeline em mobile
+function adjustTimeline() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    
+    if(window.innerWidth <= 768) {
+        timelineItems.forEach(item => {
+            item.style.left = '0';
+            const date = item.querySelector('.timeline-date');
+            if(date) {
+                date.style.position = 'relative';
+                date.style.top = 'auto';
+            }
+        });
+    }
+}
+
+// Executa ao carregar e redimensionar
+window.addEventListener('load', adjustTimeline);
+window.addEventListener('resize', adjustTimeline);
 
 });
+
 
