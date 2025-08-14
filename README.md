@@ -12,7 +12,7 @@ Uma pessoa extramente curiosa pela área de tecologia desde pequeno, atualmente 
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theusbarross&repo=Project-Tik-Tok-Clone&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=theusbarross&repo=meuportfolio&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github.com/theusbarross/theusbarross.git)
 
 <h2 align='center'>Meu contato:</h2>
 
