@@ -250,6 +250,39 @@ section {
 }
 
 /* Seção Formação (Timeline) */
+@media (max-width: 768px) {
+    .timeline::after {
+        left: 2rem !important; /* Linha central alinhada à esquerda */
+    }
+    
+    .timeline-item {
+        width: 100% !important;
+        padding-left: 5rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0 !important;
+    }
+    
+    .timeline-item::after {
+        left: 1rem !important;
+        right: auto !important;
+    }
+    
+    .timeline-date {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    
+    .timeline-content {
+        padding: 1.5rem !important;
+    }
+}
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -357,6 +390,28 @@ section {
 }
 
 /* Seção Experiência */
+@media (max-width: 768px) {
+    .experience-item {
+        padding: 1.5rem !important;
+        flex-direction: column;
+    }
+    
+    .experience-date {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        margin-bottom: 1rem;
+        color: var(--main-color) !important;
+    }
+    
+    .experience-content h3 {
+        font-size: 1.5rem !important;
+    }
+    
+    .experience-content h4 {
+        font-size: 1.1rem !important;
+    }
+}
 .experience-container {
     max-width: 800px;
     margin: 0 auto;
@@ -614,3 +669,4 @@ section {
     width: device-width;
     zoom: 1.0;
 }
+
