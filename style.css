@@ -250,6 +250,7 @@ section {
 }
 
 /* Seção Formação (Timeline) */
+
 @media (max-width: 768px) {
     .timeline::after {
         left: 2rem !important; /* Linha central alinhada à esquerda */
@@ -390,6 +391,7 @@ section {
 }
 
 /* Seção Experiência */
+
 @media (max-width: 768px) {
     .experience-item {
         padding: 1.5rem !important;
