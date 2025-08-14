@@ -92,13 +92,14 @@ document.addEventListener('DOMContentLoaded', function() {
     menuToggle.className = 'menu-toggle';
     menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
     document.querySelector('.header').appendChild(menuToggle);
-    
+
     menuToggle.addEventListener('click', () => {
-        document.querySelector('.navbar').classList.toggle('active');
-        menuToggle.innerHTML = document.querySelector('.navbar').classList.contains('active') 
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+        menuToggle.innerHTML = navbar.classList.contains('active') 
             ? '<i class="fas fa-times"></i>' 
             : '<i class="fas fa-bars"></i>';
-    });
+});
 
     // Fechar menu ao clicar em um link (para mobile)
     navLinks.forEach(link => {
@@ -140,4 +141,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Opcional: Mostra mensagem de confirmação
     alert('Você será redirecionado para o WhatsApp para completar o envio!');
 });
+
 });
